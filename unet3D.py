@@ -76,7 +76,7 @@ if gpus:
 
 
 # preparing data for training using generator 
-def dataGenerator(train_dir, image_dir, mask_dir, batch_size, target_size = (128, 128, 128)):  
+def dataGenerator(train_dir, image_dir, mask_dir, batch_size, target_size = (128, 128, 128), dtype = np.float32):  
 
     i = 0 
     im_list = glob.glob(train_dir + '/' + image_dir + '/' + '*.tif')
@@ -109,7 +109,7 @@ def dataGenerator(train_dir, image_dir, mask_dir, batch_size, target_size = (128
             image_batch.append(im)
             mask_batch.append(mask)
             
-        yield (np.array(image_batch), np.array(mask_batch))
+        yield (np.array(image_batch, dtype = dtype), np.array(mask_batch, dtype = dtype))
 
 # define several deep learning models 
 
