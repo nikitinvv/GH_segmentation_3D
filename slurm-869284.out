@@ -1,0 +1,280 @@
+2020-12-28 04:55:36.749943: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           gn2
+  Local device:         mlx5_1
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+2020-12-28 04:55:40.855264: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           gn2
+  Local device:         mlx5_1
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+2020-12-28 04:55:55.057897: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-28 04:55:58.140714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:18:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:55:58.142228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:3b:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:55:58.143666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 2 with properties: 
+pciBusID: 0000:86:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:55:58.145056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 3 with properties: 
+pciBusID: 0000:af:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:55:58.145111: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-28 04:56:01.546825: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-12-28 04:56:05.298515: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-12-28 04:56:10.182304: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-12-28 04:56:13.212564: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-12-28 04:56:14.674017: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-12-28 04:56:21.743143: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-28 04:56:21.754282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1, 2, 3
+2020-12-28 04:56:21.765818: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-12-28 04:56:22.279645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:18:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:56:22.280852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:3b:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:56:22.282008: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 2 with properties: 
+pciBusID: 0000:86:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:56:22.283138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 3 with properties: 
+pciBusID: 0000:af:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2020-12-28 04:56:22.283177: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-28 04:56:22.283242: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-12-28 04:56:22.283257: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-12-28 04:56:22.283271: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-12-28 04:56:22.283285: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-12-28 04:56:22.283298: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-12-28 04:56:22.283312: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-28 04:56:22.287750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1, 2, 3
+2020-12-28 04:56:22.287790: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-28 04:56:44.496154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-28 04:56:44.496396: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 1 2 3 
+2020-12-28 04:56:44.496405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N Y Y Y 
+2020-12-28 04:56:44.496409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 1:   Y N Y Y 
+2020-12-28 04:56:44.496412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 2:   Y Y N Y 
+2020-12-28 04:56:44.496416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 3:   Y Y Y N 
+2020-12-28 04:56:44.502203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 32000 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:18:00.0, compute capability: 7.0)
+2020-12-28 04:56:44.504931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 32000 MB memory) -> physical GPU (device: 1, name: Tesla V100-SXM2-32GB, pci bus id: 0000:3b:00.0, compute capability: 7.0)
+2020-12-28 04:56:44.507062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 32000 MB memory) -> physical GPU (device: 2, name: Tesla V100-SXM2-32GB, pci bus id: 0000:86:00.0, compute capability: 7.0)
+2020-12-28 04:56:44.509534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 32000 MB memory) -> physical GPU (device: 3, name: Tesla V100-SXM2-32GB, pci bus id: 0000:af:00.0, compute capability: 7.0)
+2020-12-28 04:56:44.510195: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+2020-12-28 04:57:01.208005: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-28 04:57:09.452940: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2020-12-28 04:57:09.634144: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2020-12-28 04:57:09.648751: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2020-12-28 04:57:09.648920: W tensorflow/core/common_runtime/base_collective_executor.cc:217] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/model/conv3d/Conv3D}}]]
+	 [[Adam/Adam/update_2_1/AssignAddVariableOp/_229]]
+2020-12-28 04:57:09.648975: W tensorflow/core/common_runtime/base_collective_executor.cc:217] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/model/conv3d/Conv3D}}]]
+	 [[GroupCrossDeviceControlEdges_1/Adam/Adam/update_0/Const/_213]]
+2020-12-28 04:57:09.649015: W tensorflow/core/common_runtime/base_collective_executor.cc:217] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/model/conv3d/Conv3D}}]]
+	 [[replica_3/Cast_1/_106]]
+2020-12-28 04:57:09.649103: W tensorflow/core/common_runtime/base_collective_executor.cc:217] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/model/conv3d/Conv3D}}]]
+	 [[Adam/Adam/group_deps/_241]]
+2020-12-28 04:57:09.649408: W tensorflow/core/common_runtime/base_collective_executor.cc:217] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node replica_1/model/conv3d/Conv3D}}]]
+2020-12-28 04:57:09.655357: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2020-12-28 04:57:09.833474: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2020-12-28 04:57:09.839691: E tensorflow/stream_executor/cuda/cuda_dnn.cc:329] Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 64, 64, 64,  0                                            
+__________________________________________________________________________________________________
+conv3d (Conv3D)                 (None, 64, 64, 64, 3 896         input_1[0][0]                    
+__________________________________________________________________________________________________
+concatenate (Concatenate)       (None, 64, 64, 64, 3 0           input_1[0][0]                    
+                                                                 conv3d[0][0]                     
+__________________________________________________________________________________________________
+conv3d_1 (Conv3D)               (None, 64, 64, 64, 3 28544       concatenate[0][0]                
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 64, 64, 64, 3 0           input_1[0][0]                    
+                                                                 conv3d_1[0][0]                   
+__________________________________________________________________________________________________
+max_pooling3d (MaxPooling3D)    (None, 32, 32, 32, 3 0           concatenate_1[0][0]              
+__________________________________________________________________________________________________
+conv3d_2 (Conv3D)               (None, 32, 32, 32, 6 57088       max_pooling3d[0][0]              
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 32, 32, 32, 9 0           max_pooling3d[0][0]              
+                                                                 conv3d_2[0][0]                   
+__________________________________________________________________________________________________
+conv3d_3 (Conv3D)               (None, 32, 32, 32, 6 167680      concatenate_2[0][0]              
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 32, 32, 32, 9 0           max_pooling3d[0][0]              
+                                                                 conv3d_3[0][0]                   
+__________________________________________________________________________________________________
+max_pooling3d_1 (MaxPooling3D)  (None, 16, 16, 16, 9 0           concatenate_3[0][0]              
+__________________________________________________________________________________________________
+conv3d_4 (Conv3D)               (None, 16, 16, 16, 1 335360      max_pooling3d_1[0][0]            
+__________________________________________________________________________________________________
+concatenate_4 (Concatenate)     (None, 16, 16, 16, 2 0           max_pooling3d_1[0][0]            
+                                                                 conv3d_4[0][0]                   
+__________________________________________________________________________________________________
+conv3d_5 (Conv3D)               (None, 16, 16, 16, 1 777728      concatenate_4[0][0]              
+__________________________________________________________________________________________________
+concatenate_5 (Concatenate)     (None, 16, 16, 16, 2 0           max_pooling3d_1[0][0]            
+                                                                 conv3d_5[0][0]                   
+__________________________________________________________________________________________________
+max_pooling3d_2 (MaxPooling3D)  (None, 8, 8, 8, 225) 0           concatenate_5[0][0]              
+__________________________________________________________________________________________________
+conv3d_6 (Conv3D)               (None, 8, 8, 8, 256) 1555456     max_pooling3d_2[0][0]            
+__________________________________________________________________________________________________
+concatenate_6 (Concatenate)     (None, 8, 8, 8, 481) 0           max_pooling3d_2[0][0]            
+                                                                 conv3d_6[0][0]                   
+__________________________________________________________________________________________________
+conv3d_7 (Conv3D)               (None, 8, 8, 8, 256) 3324928     concatenate_6[0][0]              
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 8, 8, 8, 481) 0           max_pooling3d_2[0][0]            
+                                                                 conv3d_7[0][0]                   
+__________________________________________________________________________________________________
+max_pooling3d_3 (MaxPooling3D)  (None, 4, 4, 4, 481) 0           concatenate_7[0][0]              
+__________________________________________________________________________________________________
+conv3d_8 (Conv3D)               (None, 4, 4, 4, 512) 6649856     max_pooling3d_3[0][0]            
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 4, 4, 4, 993) 0           max_pooling3d_3[0][0]            
+                                                                 conv3d_8[0][0]                   
+__________________________________________________________________________________________________
+conv3d_9 (Conv3D)               (None, 4, 4, 4, 512) 13727744    concatenate_8[0][0]              
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 4, 4, 4, 993) 0           max_pooling3d_3[0][0]            
+                                                                 conv3d_9[0][0]                   
+__________________________________________________________________________________________________
+conv3d_transpose (Conv3DTranspo (None, 8, 8, 8, 256) 2033920     concatenate_9[0][0]              
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 8, 8, 8, 737) 0           conv3d_transpose[0][0]           
+                                                                 concatenate_7[0][0]              
+__________________________________________________________________________________________________
+conv3d_10 (Conv3D)              (None, 8, 8, 8, 256) 5094400     concatenate_10[0][0]             
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 8, 8, 8, 993) 0           concatenate_10[0][0]             
+                                                                 conv3d_10[0][0]                  
+__________________________________________________________________________________________________
+conv3d_11 (Conv3D)              (None, 8, 8, 8, 256) 6863872     concatenate_11[0][0]             
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 8, 8, 8, 993) 0           concatenate_10[0][0]             
+                                                                 conv3d_11[0][0]                  
+__________________________________________________________________________________________________
+conv3d_transpose_1 (Conv3DTrans (None, 16, 16, 16, 1 1016960     concatenate_12[0][0]             
+__________________________________________________________________________________________________
+concatenate_13 (Concatenate)    (None, 16, 16, 16, 2 0           conv3d_transpose_1[0][0]         
+                                                                 conv3d_5[0][0]                   
+__________________________________________________________________________________________________
+conv3d_12 (Conv3D)              (None, 16, 16, 16, 1 884864      concatenate_13[0][0]             
+__________________________________________________________________________________________________
+concatenate_14 (Concatenate)    (None, 16, 16, 16, 3 0           concatenate_13[0][0]             
+                                                                 conv3d_12[0][0]                  
+__________________________________________________________________________________________________
+conv3d_13 (Conv3D)              (None, 16, 16, 16, 1 1327232     concatenate_14[0][0]             
+__________________________________________________________________________________________________
+concatenate_15 (Concatenate)    (None, 16, 16, 16, 3 0           concatenate_13[0][0]             
+                                                                 conv3d_13[0][0]                  
+__________________________________________________________________________________________________
+conv3d_transpose_2 (Conv3DTrans (None, 32, 32, 32, 6 196672      concatenate_15[0][0]             
+__________________________________________________________________________________________________
+concatenate_16 (Concatenate)    (None, 32, 32, 32, 1 0           conv3d_transpose_2[0][0]         
+                                                                 conv3d_3[0][0]                   
+__________________________________________________________________________________________________
+conv3d_14 (Conv3D)              (None, 32, 32, 32, 6 221248      concatenate_16[0][0]             
+__________________________________________________________________________________________________
+concatenate_17 (Concatenate)    (None, 32, 32, 32, 1 0           concatenate_16[0][0]             
+                                                                 conv3d_14[0][0]                  
+__________________________________________________________________________________________________
+conv3d_15 (Conv3D)              (None, 32, 32, 32, 6 331840      concatenate_17[0][0]             
+__________________________________________________________________________________________________
+concatenate_18 (Concatenate)    (None, 32, 32, 32, 1 0           concatenate_16[0][0]             
+                                                                 conv3d_15[0][0]                  
+__________________________________________________________________________________________________
+conv3d_transpose_3 (Conv3DTrans (None, 64, 64, 64, 3 49184       concatenate_18[0][0]             
+__________________________________________________________________________________________________
+concatenate_19 (Concatenate)    (None, 64, 64, 64, 6 0           conv3d_transpose_3[0][0]         
+                                                                 conv3d_1[0][0]                   
+__________________________________________________________________________________________________
+conv3d_16 (Conv3D)              (None, 64, 64, 64, 3 55328       concatenate_19[0][0]             
+__________________________________________________________________________________________________
+concatenate_20 (Concatenate)    (None, 64, 64, 64, 9 0           concatenate_19[0][0]             
+                                                                 conv3d_16[0][0]                  
+__________________________________________________________________________________________________
+conv3d_17 (Conv3D)              (None, 64, 64, 64, 3 82976       concatenate_20[0][0]             
+__________________________________________________________________________________________________
+concatenate_21 (Concatenate)    (None, 64, 64, 64, 9 0           concatenate_19[0][0]             
+                                                                 conv3d_17[0][0]                  
+__________________________________________________________________________________________________
+conv3d_18 (Conv3D)              (None, 64, 64, 64, 1 97          concatenate_21[0][0]             
+==================================================================================================
+Total params: 44,783,873
+Trainable params: 44,783,873
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Train for 94 steps
+Epoch 1/50
+ 1/94 [..............................] - ETA: 37:26WARNING:tensorflow:Can save best model only with loss available, skipping.
+Traceback (most recent call last):
+  File "unet3D_new.py", line 350, in <module>
+    history = model.fit(myGene,steps_per_epoch=steps_per_epoch,epochs=50,callbacks=[model_checkpoint])
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training.py", line 819, in fit
+    use_multiprocessing=use_multiprocessing)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_v2.py", line 342, in fit
+    total_epochs=epochs)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_v2.py", line 128, in run_one_epoch
+    batch_outs = execution_function(iterator)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_v2_utils.py", line 98, in execution_function
+    distributed_function(input_fn))
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/def_function.py", line 568, in __call__
+    result = self._call(*args, **kwds)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/def_function.py", line 632, in _call
+    return self._stateless_fn(*args, **kwds)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 2363, in __call__
+    return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 1611, in _filtered_call
+    self.captured_inputs)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 1692, in _call_flat
+    ctx, args, cancellation_manager=cancellation_manager))
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/function.py", line 545, in call
+    ctx=ctx)
+  File "/sw/easybuild/software/TensorFlow/2.1.0-fosscuda-2019b-Python-3.7.4/lib/python3.7/site-packages/tensorflow_core/python/eager/execute.py", line 67, in quick_execute
+    six.raise_from(core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node replica_1/model/conv3d/Conv3D (defined at /sw/easybuild/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/threading.py:926) ]]
+  (1) Unknown:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node replica_1/model/conv3d/Conv3D (defined at /sw/easybuild/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/threading.py:926) ]]
+	 [[Adam/Adam/update_2_1/AssignAddVariableOp/_229]]
+0 successful operations.
+3 derived errors ignored. [Op:__inference_distributed_function_15210]
+
+Errors may have originated from an input operation.
+Input Source operations connected to node replica_1/model/conv3d/Conv3D:
+ cond_5/Identity (defined at unet3D_new.py:350)
+
+Input Source operations connected to node replica_1/model/conv3d/Conv3D:
+ cond_5/Identity (defined at unet3D_new.py:350)
+
+Function call stack:
+distributed_function -> distributed_function
+
+slurmstepd: error: *** JOB 869284 ON gn2 CANCELLED AT 2020-12-28T06:41:24 ***
